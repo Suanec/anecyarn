@@ -1,0 +1,4 @@
+Manifest-Version: 0.1
+Created-By: anec.ml.yarn.suanec
+Built-By: Suanec
+Main-Class: anec.ml.yarn.anecyarn.client.Client

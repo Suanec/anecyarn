@@ -1,0 +1,82 @@
+# hidden file
+.*
+
+# temp file
+*~
+*.bak
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# other
+.makev
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+versioninfo.cmake
+bin/
+lib/
+log
+*.text
+*.txt
+*.jar
+*log
+*.log
+*.data
+.svn
+*classes
+.idea
+.classpath
+*~
+**/data/*
+**/log/*
+**/logs/*
+**/tmp/*
+**/temp/*
+**/index/*
+**/result/*
+*#
+.#*
+*.pyc
+*.tar.gz
+*.pid
+*nohup.out
+*.swp
+*.out
+*.dat
+.DS_Store
+/project/wdatax/MaxComputeHotwb/*
+!/project/wdatax/MaxComputeHotwb/src/*
+!/project/wdatax/MaxComputeHotwb/examples/*
+framework/target/
+*.iml
+ maven
+target/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.swp
+*.swo
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# C/C++
+*.o
+*.pyc
+logs
+/build/
+data-flow-2.0.0-SNAPSHOT-shade.jar
+client/weiclient/libs/com/weibo/weibox/yarn/ksp
+client/history/origin_python_non_reflect_weiclient
+client/release/weiclient-run-origin
+client/release/weiclient-run
