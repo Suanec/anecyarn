@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>anecyarn.staging.dir</name>
+        <value>/tmp/AnecYarn/staging</value>
+    </property>
+    <property>
+        <name>anecyarn.cleanup.enable</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>anecyarn.execute.node.limit</name>
+        <value>200</value>
+    </property>
+    <property>
+        <name>anecyarn.log.pull.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>anecyarn.am.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>anecyarn.am.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>anecyarn.worker.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>anecyarn.worker.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>anecyarn.worker.num</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>anecyarn.ps.memory</name>
+        <value>1024</value>
+    </property>
+    <property>
+        <name>anecyarn.ps.cores</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>anecyarn.ps.num</name>
+        <value>0</value>
+    </property>
+    <property>
+        <name>anecyarn.app.queue</name>
+        <value>DEFAULT</value>
+    </property>
+    <property>
+        <name>anecyarn.app.priority</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>anecyarn.container.extra.java.opts</name>
+        <value></value>
+    </property>
+    <property>
+        <name>anecyarn.allocate.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>anecyarn.status.update.interval</name>
+        <value>1000</value>
+    </property>
+    <property>
+        <name>anecyarn.task.timeout</name>
+        <value>300000</value>
+    </property>
+    <property>
+        <name>anecyarn.task.timeout.check.interval</name>
+        <value>3000</value>
+    </property>
+    <property>
+        <name>anecyarn.messages.len.max</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>anecyarn.inputfile.rename</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>anecyarn.download.file.retry</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>anecyarn.download.file.thread.nums</name>
+        <value>10</value>
+    </property>
+    <property>
+        <name>anecyarn.container.heartbeat.interval</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>anecyarn.container.heartbeat.retry</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>anecyarn.container.update.appstatus.interval</name>
+        <value>3000</value>
+    </property>
+    <property>
+        <name>anecyarn.container.auto.create.output.dir</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>anecyarn.container.maxFailures.rate</name>
+        <value>0.5</value>
+    </property>
+    <property>
+        <name>anecyarn.tf.board.history.dir</name>
+        <value>/tmp/AnecYarn/eventLog</value>
+    </property>
+    <property>
+        <name>anecyarn.history.log.dir</name>
+        <value>/tmp/AnecYarn/history</value>
+    </property>
+    <property>
+        <name>anecyarn.history.log.max-age-ms</name>
+        <value>604800000</value>
+    </property>
+    <property>
+        <name>anecyarn.history.log.delete-monitor-time-interval</name>
+        <value>86400000</value>
+    </property>
+    <property>
+        <name>anecyarn.history.address</name>
+        <value>0.0.0.0:10021</value>
+    </property>
+    <property>
+        <name>anecyarn.history.port</name>
+        <value>10021</value>
+    </property>
+    <property>
+        <name>anecyarn.history.webapp.address</name>
+        <value>0.0.0.0:19886</value>
+    </property>
+    <property>
+        <name>anecyarn.history.webapp.port</name>
+        <value>19886</value>
+    </property>
+    <property>
+        <name>anecyarn.history.webapp.https.address</name>
+        <value>0.0.0.0:19885</value>
+    </property>
+    <property>
+        <name>anecyarn.history.webapp.https.port</name>
+        <value>19885</value>
+    </property>
+    <property>
+        <name>anecyarn.history.client.thread-count</name>
+        <value>10</value>
+    </property>
+    <property>
+        <name>anecyarn.history.recovery.enable</name>
+        <value>false</value>
+    </property>
+</configuration>
