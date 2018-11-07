@@ -15,7 +15,7 @@
         <jdk.version>1.7</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <anecyarn.jar.basename>anecyarn-${project.version}-hadoop${hadoop2.version}</anecyarn.jar.basename>
-        <xlearning.jar>${anecyarn.jar.basename}.jar</xlearning.jar>
+        <anecyarn.jar>${anecyarn.jar.basename}.jar</anecyarn.jar>
     </properties>
 
     <dependencies>
