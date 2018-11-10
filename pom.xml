@@ -12,8 +12,20 @@
     <properties>
         <hadoop2.version>2.7.3</hadoop2.version>
         <junit.version>4.11</junit.version>
-        <jdk.version>1.7</jdk.version>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <encoding>UTF-8</encoding>
+        <scala.version>2.11.5</scala.version>
+        <scala.compat.version>2.11</scala.compat.version>
+        <spark.version>2.1.0</spark.version>
+        <hadoop.version>2.7.3</hadoop.version>
+        <akka.version>2.4.12</akka.version>
+        <CodeCacheSize>512m</CodeCacheSize>
+        <tf.version>1.3.0</tf.version>
+        <angel.version>1.5.1</angel.version>
         <anecyarn.jar.basename>anecyarn-${project.version}-hadoop${hadoop2.version}</anecyarn.jar.basename>
         <anecyarn.jar>${anecyarn.jar.basename}.jar</anecyarn.jar>
     </properties>
@@ -101,6 +113,8 @@
                 </executions>
             </plugin>
 
+            <!--
+            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
