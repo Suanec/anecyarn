@@ -10,7 +10,7 @@
 
 
     <properties>
-        <hadoop2.version>2.7.3</hadoop2.version>
+        <hadoop2.version>2.10.1</hadoop2.version>
         <junit.version>4.13.1</junit.version>
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
